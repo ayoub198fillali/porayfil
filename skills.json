@@ -1,0 +1,206 @@
+[
+  {
+    "name": "WinServer",
+    "icon": "https://img.icons8.com/color/48/000000/windows-10.png"
+  },
+  {
+    "name": "Linux",
+    "icon": "https://img.icons8.com/color/48/000000/linux.png"
+  },
+  {
+    "name": "AI",
+    "icon": "https://img.icons8.com/color/48/000000/artificial-intelligence"
+  },
+  {
+    "name": "Data Science",
+    "icon": "https://img.icons8.com/external-flaticons-flat-circular-flat-icons/48/null/external-data-science-data-analytics-flaticons-flat-circular-flat-icons.png"
+  },
+  {
+    "name": "Kaggle",
+    "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/null/external-kaggle-an-online-community-of-data-scientists-and-machine-learners-owned-by-google-logo-shadow-tal-revivo.png"
+  },
+  {
+    "name": "Algorithm",
+    "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/48/null/external-algorithm-data-analytics-flaticons-lineal-color-flat-icons-4.png"
+  },
+  {
+    "name": "HTML5",
+    "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+  },
+
+  {
+    "name": "PugJS",
+    "icon": "https://img.icons8.com/color/48/000000/pug"
+  },
+  {
+    "name": "CSS3",
+    "icon": "https://img.icons8.com/color/48/000000/css3.png"
+  },
+  {
+    "name": "Sass",
+    "icon": "https://img.icons8.com/color/48/000000/sass.png"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+  },
+  {
+    "name": "GulpJS",
+    "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/null/external-gulp-an-open-source-javascript-toolkit-by-fractal-innovations-logo-shadow-tal-revivo.png"
+  },
+  {
+    "name": "JEST",
+    "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/null/external-jest-can-collect-code-coverage-information-from-entire-projects-logo-shadow-tal-revivo.png"
+  },
+  {
+    "name": "PHP",
+    "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+  },
+
+  {
+    "name": "jQuery",
+    "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
+  },
+  {
+    "name": "API REST",
+    "icon": "https://img.icons8.com/arcade/48/null/api-settings.png"
+  },
+  {
+    "name": "JSON",
+    "icon": "https://img.icons8.com/officel/48/null/json.png"
+  },
+  {
+    "name": "ReactJS",
+    "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+  },
+  {
+    "name": "WordPress",
+    "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+  },
+
+  {
+    "name": "MaterialUI",
+    "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
+  },
+
+  {
+    "name": "JIRA",
+    "icon": "https://img.icons8.com/color/48/null/jira.png"
+  },
+  {
+    "name": "DevOps",
+    "icon": "https://img.icons8.com/external-soft-fill-juicy-fish/48/null/external-dev-coding-and-development-soft-fill-soft-fill-juicy-fish.png"
+  },
+
+  {
+    "name": "Git VCS",
+    "icon": "https://img.icons8.com/color/48/000000/git.png"
+  },
+  {
+    "name": "GitHub",
+    "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+  },
+  {
+    "name": "Batch & Macro",
+    "icon": "https://img.icons8.com/parakeet/48/null/console.png"
+  },
+  {
+    "name": "C++",
+    "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+  },
+  {
+    "name": "Android",
+    "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
+  },
+
+  {
+    "name": "Java",
+    "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+  },
+  {
+    "name": "JavaFX",
+    "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+  },
+  {
+    "name": "Kotlin",
+    "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
+  },
+  {
+    "name": "Python",
+    "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+  },
+  {
+    "name": "Apache",
+    "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/null/external-apache-a-free-and-open-source-cross-platform-web-server-software-logo-shadow-tal-revivo.png"
+  },
+
+  {
+    "name": "MySQL",
+    "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+  },
+  {
+    "name": "Workbench",
+    "icon": "https://img.icons8.com/color/48/null/my-sql.png"
+  },
+
+  {
+    "name": "AD-Photoshop",
+    "icon": "https://img.icons8.com/fluency/48/null/adobe-photoshop.png"
+  },
+  {
+    "name": "AD-DreamWeaver",
+    "icon": "https://img.icons8.com/color/48/null/adobe-dreamweaver--v1.png"
+  },
+  {
+    "name": "AD-Animate",
+    "icon": "https://img.icons8.com/color/48/null/adobe-animate.png"
+  },
+  {
+    "name": "AD-Illustrator",
+    "icon": "https://img.icons8.com/color/48/null/adobe-illustrator--v1.png"
+  },
+  {
+    "name": "AD-XD",
+    "icon": "https://img.icons8.com/color/48/null/adobe-xd--v1.png"
+  },
+  {
+    "name": "Figma",
+    "icon": "https://img.icons8.com/color/48/null/figma--v1.png"
+  },
+
+  {
+    "name": "Arduino",
+    "icon": "https://img.icons8.com/fluency/48/null/arduino.png"
+  },
+  {
+    "name": "ESP32",
+    "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/48/null/external-embedded-web-development-flaticons-lineal-color-flat-icons.png"
+  },
+
+  {
+    "name": "RaspberryPI",
+    "icon": "https://img.icons8.com/color/48/null/raspberry-pi.png"
+  },
+
+  {
+    "name": "PIC",
+    "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/48/null/external-embedded-web-development-flaticons-lineal-color-flat-icons.png"
+  },
+
+  {
+    "name": "QGIS",
+    "icon": "https://cdn.icon-icons.com/icons2/2699/PNG/48/qgis_logo_icon_170816.png"
+  },
+  {
+    "name": "MATLAB",
+    "icon": "https://img.icons8.com/fluency/48/null/matlab.png"
+  },
+  {
+    "name": "LabVIEW",
+    "icon": "https://cdn.icon-icons.com/icons2/2699/PNG/64/ni_labview_logo_icon_169920.png"
+  }
+]
