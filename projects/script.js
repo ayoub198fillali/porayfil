@@ -19,10 +19,10 @@ $(document).ready(function () {
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
     document.title = "Projects | Portfolio Ayoub FILLALI";
-    $("#favicon").attr("href", "/assets/images/favicon.png");
+    $("#favicon").attr("href", "/porayfil/assets/images/favicon.png");
   } else {
     document.title = "Come Back To Portfolio";
-    $("#favicon").attr("href", "/assets/images/favhand.png");
+    $("#favicon").attr("href", "/porayfil/assets/images/favhand.png");
   }
 });
 
