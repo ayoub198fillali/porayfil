@@ -17,13 +17,16 @@
 <body > <!-- oncontextmenu="return false" -->
 
 <!-- pre loader -->
-<!-- <div class="loader-container">
-  <img draggable="false" src="./assets/images/preloader.gif" alt="">
-</div> -->
+<div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.svg" alt="" />
+</div>
 
 <!-- navbar starts -->
 <header>
-        <a href="/porayfil" class="logo"><i class="fa fa-code"></i> FILLALI</a>
+        <!-- <a href="/porayfil" class="logo"><i class="fa fa-code"></i> FILLALI</a> -->
+
+        <a href="/" class="logo"><img draggable="false" src="/assets/images/logo.svg" width="120" alt="" srcset="">
+        </a>
 
         <div id="menu" class="fas fa-bars"></div>
         <nav class="navbar">
@@ -79,7 +82,7 @@
         <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="">
     </div>
     <div class="content">
-        <h3>I'm FILLALI Ayoub</h3>
+        <h3>I'm <span>FILLALI Ayoub</span> </h3>
         <span class="tag">IT & DATA Scientist & Developer</span>
         
         <p style="text-align: justify;">
@@ -331,7 +334,7 @@
   <div class="container">
     <div class="content">
       <div class="image-box">
-        <img draggable="false" src="./assets/images/contact1.png" alt="">
+        <img draggable="false" src="./assets/images/contact1.svg" alt="">
       </div>
     <form id="contact-form">
       
@@ -386,9 +389,9 @@
 
       <div class="box">
           <h3>contact info</h3>
-          <p> <i class="fas fa-phone"></i>+33698610106</p>
-          <p> <i class="fas fa-envelope"></i>filalifilali1999@gmail.com</p>
-          <p> <i class="fas fa-map-marked-alt"></i>LA GARDE, FRANCE-83130</p>
+          <p> <i class="fas fa-phone"></i><a href="tel:+33698610106">+33 6 98 61 01 06</a></p>
+          <p> <i class="fas fa-envelope"></i><a href="mailto:filalifilali1999@gmail.com "> filalifilali1999@gmail.com</a></p>
+          <p> <i class="fas fa-map-marked-alt"></i><a href="https://goo.gl/maps/PmskGYCPJq33yhCQ9">LA GARDE, FRANCE-83130</a></p>
           <div class="share">
 
               <a href="https://www.linkedin.com/in/ayoub-fillali-349b8a171/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
@@ -402,7 +405,7 @@
   </div>
 
   <h1 class="credit">
-    Designed with <i class="fa fa-crown pulse"></i> by
+    Designed <i class="fa fa-pen pulse"></i> by
     <a
       href="https://www.linkedin.com/in/ayoub-fillali-349b8a171/"
       target="_blank"
@@ -444,6 +447,22 @@
 <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 <script src="./assets/js/sweetalert2.min.js"></script>
 <script src="./assets/js/script.js"></script>
-
+<script>
+// pre loader start
+  function loader() {
+    document.querySelector(".loader-container").classList.add("fade-out");
+  }
+  function fadeOut() {
+    setInterval(loader, 400);
+  }
+  window.onload = fadeOut;  
+  // pre loader end
+  
+  $(document).ready(function () {
+        $("img").on("contextmenu", function (e) {
+          e.preventDefault();
+        });
+      });
+  </script>
 </body>
 </html>
