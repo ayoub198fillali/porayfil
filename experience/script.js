@@ -17,7 +17,7 @@ $(document).ready(function () {
 });
 
 // Read the data from experience.json
-fetch("./experience.json")
+fetch("experience.json")
   .then((response) => response.json())
   .then((data) => {
     // Iterate through the data and format each experience as a div with the appropriate classes
