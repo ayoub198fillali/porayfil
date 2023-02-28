@@ -87,7 +87,7 @@ $(document).ready(function () {
   //@@@ Experiences
 
   // Read the data from experience.json
-  fetch("/experience/experience.json")
+  fetch("../experience/experience.json")
     .then((response) => response.json())
     .then((data) => {
       data = data.slice(0, 7);
