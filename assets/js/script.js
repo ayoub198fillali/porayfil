@@ -58,7 +58,7 @@ $(document).ready(function () {
       {
         scrollTop: $($(this).attr("href")).offset().top,
       },
-      500,
+      1,
       "linear"
     );
   });
@@ -83,6 +83,44 @@ $(document).ready(function () {
     event.preventDefault();
   });
   // <!-- emailjs to mail contact form data -->
+
+  //@@@ Experiences
+
+  // Read the data from experience.json
+  fetch("/experience/experience.json")
+    .then((response) => response.json())
+    .then((data) => {
+      data = data.slice(0, 7);
+      // Iterate through the data and format each experience as a div with the appropriate classes
+      const experiences = data.map((experience) => {
+        const { title, position, description, duration, side } = experience;
+        const contentClasses = side === "right" ? "right" : "left";
+        return `
+      <div class="container ${contentClasses}">
+        <div class="content">
+          <div class="tag">
+            <h2>${title}</h2>
+          </div>
+          <div class="desc">
+            <h3>${position}</h3>
+            <p>${description}</p>
+            <p>${duration}</p>
+          </div>
+        </div>
+      </div>
+    `;
+      });
+
+      // Append each experience div to the timeline
+      // const timeline = document.querySelector;
+      var timeline = $(".timeline");
+      var newElement = $(experiences.join(""));
+      timeline.append(newElement);
+      // Ajout de la fonction stop.reveal() pour chaque partie du contenu
+      srtop.reveal(".experience .timeline", { delay: 400 });
+      srtop.reveal(".experience .timeline .content", { interval: 400 });
+    })
+    .catch((error) => console.error(error));
 });
 
 document.addEventListener("visibilitychange", function () {
@@ -283,8 +321,8 @@ srtop.reveal(".education .box", { interval: 200 });
 srtop.reveal(".work .box", { interval: 200 });
 
 /* SCROLL EXPERIENCE */
-srtop.reveal(".experience .timeline", { delay: 400 });
-srtop.reveal(".experience .timeline .container", { interval: 400 });
+// srtop.reveal(".experience .timeline", { delay: 400 });
+// srtop.reveal(".experience .timeline .container", { interval: 400 });
 
 /* SCROLL CONTACT */
 srtop.reveal(".contact .container", { delay: 400 });

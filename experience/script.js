@@ -16,6 +16,41 @@ $(document).ready(function () {
   });
 });
 
+// Read the data from experience.json
+fetch("./experience.json")
+  .then((response) => response.json())
+  .then((data) => {
+    // Iterate through the data and format each experience as a div with the appropriate classes
+    const experiences = data.map((experience) => {
+      const { title, position, description, duration, side } = experience;
+      const contentClasses = side === "right" ? "right" : "left";
+      return `
+        <div class="container ${contentClasses}">
+          <div class="content">
+            <div class="tag">
+              <h2>${title}</h2>
+            </div>
+            <div class="desc">
+              <h3>${position}</h3>
+              <p>${description}</p>
+              <p>${duration}</p>
+            </div>
+          </div>
+        </div>
+      `;
+    });
+
+    // Append each experience div to the timeline
+    // const timeline = document.querySelector;
+    var timeline = $(".timeline");
+    var newElement = $(experiences.join(""));
+    timeline.append(newElement);
+    // Ajout de la fonction stop.reveal() pour chaque partie du contenu
+    srtop.reveal(".experience .timeline", { delay: 400 });
+    srtop.reveal(".experience .timeline .content", { interval: 400 });
+  })
+  .catch((error) => console.error(error));
+
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
   origin: "top",
@@ -25,8 +60,6 @@ const srtop = ScrollReveal({
 });
 
 /* SCROLL EXPERIENCE */
-srtop.reveal(".experience .timeline", { delay: 400 });
-srtop.reveal(".experience .timeline .container", { interval: 400 });
 
 // Start of Tawk.to Live Chat
 var Tawk_API = Tawk_API || {},

@@ -1,0 +1,65 @@
+[
+  {
+    "title": "End-of-Studies Internship",
+    "position": "IOT Full Stack Developer",
+    "description": "As a Contractor, I was responsible for enhancing and expanding upon an existing platform <AIENG>, incorporating new features and modifications as requested by the company",
+    "duration": "06/03/2023 - 31/08/2023 (6 month) ",
+    "side": "left"
+  },
+  {
+    "title": "Contractor",
+    "position": "Full Stack Developer",
+    "description": "As a Contractor, I was responsible for enhancing and expanding upon an existing platform <AIENG>, incorporating new features and modifications as requested by the company",
+    "duration": "01/03/2023 - 01/04/2023 (1 month) ",
+    "side": "right"
+  },
+  {
+    "title": "Freelancer",
+    "position": "Web Developer And Designer",
+    "description": "Conception and design of logos, business card, flyers, Websites..., and all visual",
+    "duration": "06/2022 - Now",
+    "side": "left"
+  },
+  {
+    "title": "Application internship 2A",
+    "position": "Full Stack Developer",
+    "description": "Design and production of an application (SPA) for (Web, Desktop, Android) monitoring and\nreal-time maritime rescue <AIENG>, while respecting many criteria.\n- Agile Method (SCRUM Framework), DevOps, PugJs, Html, Js, ES6, CSS, Sass, AJAX, PHP, Jest, Email-\nJs, API Rest, SonarQube, JSHint, UI Icons (Boxions, IcoMoon), Graphics (adobe AI, Ps), Ui De-\nsign(adobe Xd, Figma), GIT, VSCode, Gulp, Sentry, Security (XSS, SQL Injection, Hachagen HTTPS) ...\nCROSS MED, LA GARDE France",
+    "duration": "05/2022 - 08/2022 (3.5 months)",
+    "side": "right"
+  },
+  {
+    "title": "Freelancer",
+    "position": "Cash On Delivery",
+    "description": "purchase equipments and repair them, then resell them to the customer via the internet",
+    "duration": "08/2020 - 10/2021 (12 months)",
+    "side": "left"
+  },
+  {
+    "title": "Application internship 2A",
+    "position": "IRIDIUM Project",
+    "description": "‘IRIDIUM’ project with Python In the laboratory  “Signals, Systems and Components” of FST & E-WHIZ.\nToulouse France & Fes Morocco",
+    "duration": "07/2021 - 09/2021 (3 months)",
+    "side": "right"
+  },
+  {
+    "title": "Internship 1A",
+    "position": "JAVA SWING Developer",
+    "description": "Realization of a 'Lang FlashCard' application for language learning (supports all languages). Multi-user and Secure, Useful, Shareable, Fun.\nFST Fez",
+    "duration": "07/2020 - 09/2020 (3 months)",
+    "side": "left"
+  },
+  {
+    "title": "Technical internship",
+    "position": "Network and system administration",
+    "description": "- Implementation of the new IPv6 protocol project through the configuration of EtherChannel, VTP,\n  STP, DHCPv6, Inter-VLAN Interconnect, Frame Relay, OSPFv3, IPv6 ACL, FTP, HTTP, DNS,\n  WLAN, Telnet and Port Security.\n- Installation and configuration of Nagios under Linux. Aims to remotely supervise the various\n  administration servers.\n- Realization of a Java application requested by the wilaya.\nWilaya of Fez (prefecture of Fez)",
+    "duration": "04/2019 - 06/2019 (2 months)",
+    "side": "right"
+  },
+  {
+    "title": "Observation Internship ",
+    "position": "Network and system administration",
+    "description": "Within the Computer Service of the High Commission for Water and Forests and the Fight Against Desertification:\n- Putting a virtual company into production (installation of Windows server 2012, using\ntion and configuration of the following roles: AD, DHCP, DNS, IIS, Print Management, GPO).\n- Configuration of HP Procuré 2910 al 24-port switches in the services of the High Commission with the supervisor.\nHCEFLCD Rabat",
+    "duration": "07/2018 - 08/2018 (30 days)",
+    "side": "left"
+  }
+]
