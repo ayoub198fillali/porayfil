@@ -375,9 +375,9 @@ header .navbar ul li a:hover {
   }
   .experience .container::before {
     left: 60px;
-    border: medium solid #f68c09;
+    border: medium solid var(--mainCyanColor);
     border-width: 10px 10px 10px 0;
-    border-color: transparent #f68c09 transparent transparent;
+    border-color: transparent var(--mainCyanColor) transparent transparent;
   }
 
   .experience .container::after {
@@ -416,7 +416,7 @@ header .navbar ul li a:hover {
 }
 .footer .box-container .box p i {
   padding-right: 1rem;
-  color: #ffae00;
+  color: var(--mainBlueColor);
 }
 .footer .box-container .box a {
   font-size: 1.5rem;
@@ -425,7 +425,7 @@ header .navbar ul li a:hover {
   display: block;
 }
 .footer .box-container .box a:hover {
-  color: #ffae00;
+  color: var(--mainBlueColor);
 }
 .footer .box-container .box .share {
   display: flex;
@@ -449,7 +449,7 @@ header .navbar ul li a:hover {
   background: transparent;
   transform: scale(0.98);
   border: 0.1rem solid rgb(180, 178, 178);
-  color: #ffae00;
+  color: var(--mainBlueColor);
 }
 .footer .credit {
   padding: 1rem 0 0 0;
@@ -461,7 +461,7 @@ header .navbar ul li a:hover {
   border-top: 0.1rem solid #fff3;
 }
 .footer .credit a {
-  color: #ffae00;
+  color: var(--mainBlueColor);
 }
 .footer .fa {
   color: #e90606;
@@ -513,7 +513,7 @@ header .navbar ul li a:hover {
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: #ffae00;
+  background: var(--mainBlueColor);
   color: rgb(13, 0, 44);
   border-radius: 5rem;
   transition: 1s linear;

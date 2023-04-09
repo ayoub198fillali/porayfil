@@ -981,6 +981,11 @@ header .navbar ul li a:hover {
   .morebtn {
     margin-top: 3rem;
   }
+  .experience .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
 }
 /* experience media queries ends */
 /* experience section ends */
