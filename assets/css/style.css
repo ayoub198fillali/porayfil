@@ -416,7 +416,7 @@ header .navbar ul li a:hover {
   mix-blend-mode: luminosity;
   transition: 0.3s;
   cursor: pointer;
-  float: right;
+  /* float: right; */
   /* padding: 20px; */
   z-index: 10;
 }
