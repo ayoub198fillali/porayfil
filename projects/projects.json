@@ -1,5 +1,15 @@
 [
   {
+    "name": "Smart Meteorological Station",
+    "desc": "Development (Prototype) of a wireless meteorological station based on a multi-core ESP32, utilizing high-performance sensors. The system includes a website, a desktop application for Windows/Linux, and an Android/iOS mobile app for supervision.",
+    "image": "weatherStationPrototype",
+    "category": "research-and-development , Software",
+    "links": {
+      "view": "/assets/images/projects/weatherStationPrototype_RAPPORT FINAL DU PROJET.pdf",
+      "code": "#"
+    }
+  },
+  {
     "name": "CAN Bus AdBlue",
     "desc": "An e-commerce platform specializing in the online sale of accessories and equipment for heavy vehicles.",
     "image": "canBusAdBlue",
@@ -75,8 +85,8 @@
     "image": "dx7Emulator",
     "category": "Software",
     "links": {
-      "view": "#",
-      "code": "#contact"
+      "view": "/assets/images/projects/dx7Emulator_rapport.pdf",
+      "code": "#"
     }
   },
   {
