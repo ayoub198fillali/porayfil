@@ -94,10 +94,15 @@ function showProjects(projects) {
     console.log(filterValue)
     $grid.isotope({ filter: filterValue });
   });
+  setTimeout(() => {
+    $(".button-group .is-checked").click();
+  }, 500); // Délai de 2 secondes
 }
 
 getProjects().then((data) => {
   showProjects(data);
+  // Après avoir affiché les projets, on simule un clic sur l'élément .is-checked
+  
 });
 // fetch projects end
 
