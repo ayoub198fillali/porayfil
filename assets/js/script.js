@@ -141,8 +141,8 @@ var typed = new Typed(".typing-text", {
     "Designer",
     "android development",
     "web development",
-    "Software development",
     "Data Science & ML & AI",
+    "Software development"
   ],
   loop: true,
   typeSpeed: 50,

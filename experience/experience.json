@@ -1,5 +1,12 @@
 [
   {
+    "title": "Control Design Software Engineer",
+    "position": "Software Developer",
+    "description": "Working at ALSTOM on the U500 project, a state-of-the-art CBTC system with GoA4 (fully automated driving). Responsibilities include development, analysis, investigation, testing, CI/CD, and traceability. Additionally, contributed by creating highly useful tools for CDS teams, Using Python and Bash/Batch scripting.",
+    "duration": "10/2023 - Present",
+    "side": "right"
+  },
+  {
     "title": "End-of-Studies Internship",
     "position": "IOT Full Stack Developer",
     "description": "As a Contractor, I was responsible for enhancing and expanding upon an existing platform <AIENG>, incorporating new features and modifications as requested by the company",
