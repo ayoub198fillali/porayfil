@@ -1,62 +1,92 @@
 [
   {
-    "name": "Burger Shop Dummy",
-    "desc": "Basic burger shop webpage allow users to check menu and price. Dummy Order Form.",
-    "image": "burgerSweb",
-    "category": "basicweb",
+    "name": "CAN Bus AdBlue",
+    "desc": "An e-commerce platform specializing in the online sale of accessories and equipment for heavy vehicles.",
+    "image": "canBusAdBlue",
+    "category": "Web",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://canbusadblue.com/",
+      "code": "#contact"
     }
   },
   {
-    "name": "Burger Shop Dummy",
-    "desc": "Basic burger shop webpage allow users to check menu and price. Dummy Order Form.",
-    "image": "burgerSweb",
-    "category": "basicweb",
+    "name": "ThiebFood By Rama",
+    "desc": "A food truck website offering authentic African cuisine in France, featuring dishes like Thiebou Diene and Thieb Poulet, made with fresh, high-quality ingredients.",
+    "image": "thiebFoodByRama",
+    "category": "Web",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://thiebfoodbyrama.com/",
+      "code": "#contact"
     }
   },
   {
-    "name": "Burger Shop Dummy",
-    "desc": "Basic burger shop webpage allow users to check menu and price. Dummy Order Form.",
-    "image": "burgerSweb",
-    "category": "basicweb",
+    "name": "Battery Health Analysis for Smart Cities",
+    "desc": "A research and development project focused on analyzing the effects of bidirectional and inductive charging on battery health. The work emphasizes SOC and SOH parameters within a Smart City context, featuring Data Modeling, AWS Architecture, Fiware integration, AI applications, and 2D/3D design.",
+    "image": "batterySmartCity",
+    "category": "research-and-development , Software",
     "links": {
       "view": "#",
-      "code": "#"
+      "code": "#contact"
     }
   },
   {
-    "name": "Burger Shop Dummy",
-    "desc": "Basic burger shop webpage allow users to check menu and price. Dummy Order Form.",
-    "image": "burgerSweb",
-    "category": "basicweb",
+    "name": "StoryGen",
+    "desc": "Development of a SaaS platform for generating narrative videos using ChatGPT, DALL·E, and APIs from Hugging Face.",
+    "image": "storyGen",
+    "category": "Software",
     "links": {
       "view": "#",
-      "code": "#"
+      "code": "#contact"
     }
   },
   {
-    "name": "Burger Shop Dummy",
-    "desc": "Basic burger shop webpage allow users to check menu and price. Dummy Order Form.",
-    "image": "burgerSweb",
-    "category": "basicweb",
+    "name": "Maritime Object Detection",
+    "desc": "Real-time detection of maritime objects using YOLOv3 and YOLOv4 algorithms.",
+    "image": "maritimeDetection",
+    "category": "research-and-development , Software",
     "links": {
       "view": "#",
-      "code": "#"
+      "code": "#contact"
     }
   },
   {
-    "name": "Burger Shop Dummy",
-    "desc": "Basic burger shop webpage allow users to check menu and price. Dummy Order Form.",
-    "image": "burgerSweb",
-    "category": "basicweb",
+    "name": "Solar System Application",
+    "desc": "Development of a 3D interactive solar system using Three.js, HTML, JS, and CSS for desktop and Android.",
+    "image": "solarSystemApp",
+    "category": "Web",
     "links": {
       "view": "#",
-      "code": "#"
+      "code": "#contact"
+    }
+  },
+  {
+    "name": "Advanced QGIS Automation",
+    "desc": "Implementation of advanced automation in QGIS using Python and PyQGIS for geospatial data processing.",
+    "image": "qgisAutomation",
+    "category": "research-and-development , Software",
+    "links": {
+      "view": "#",
+      "code": "#contact"
+    }
+  },
+  {
+    "name": "DX7 Emulator with WebApp Control",
+    "desc": "Real-time FM synthesis project using a DX7 Emulator, created with AppDesigner and controlled via a web application.",
+    "image": "dx7Emulator",
+    "category": "Software",
+    "links": {
+      "view": "#",
+      "code": "#contact"
+    }
+  },
+  {
+    "name": "Smart Vehicle Protection System",
+    "desc": "An innovative project developed during a Hackathon competition, focusing on vehicle protection systems using advanced technologies.",
+    "image": "smartVehicleProtection",
+    "category": "research-and-development",
+    "links": {
+      "view": "#",
+      "code": "#contact"
     }
   }
 ]

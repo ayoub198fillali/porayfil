@@ -91,6 +91,7 @@ function showProjects(projects) {
     $(".button-group").find(".is-checked").removeClass("is-checked");
     $(this).addClass("is-checked");
     var filterValue = $(this).attr("data-filter");
+    console.log(filterValue)
     $grid.isotope({ filter: filterValue });
   });
 }
